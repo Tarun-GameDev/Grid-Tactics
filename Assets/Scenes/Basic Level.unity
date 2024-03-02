@@ -167,11 +167,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d2e366502568da4da918784c84a88ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  findDistance: 0
   rows: 10
-  columns: 4
+  columns: 10
   scale: 2
   gridPrefab: {fileID: 2046657371124420572, guid: 5c6e9163054698146a706f250a2c46e2, type: 3}
   startPos: {x: 0, y: 0, z: 0}
+  startX: 1
+  startY: 1
+  endX: 3
+  endY: 5
+  path: []
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
